@@ -164,7 +164,6 @@ h1.sm-heading,
 h2.sm-heading,
 h3.sm-heading {
 	margin-bottom: 2rem;
-	padding: 0.2rem 1rem;
 }
 
 a {
@@ -214,7 +213,7 @@ main#home h1 {
 	grid-area: bioimage;
 	margin: auto;
 	border-radius: 50%;
-	border: #041e3e 3px solid;
+	border: #BF6999 3px solid;
 }
 .about-info .bio {
 	grid-area: bio;
@@ -232,7 +231,7 @@ main#home h1 {
 .about-info .job {
 	background: #4F3258;
 	padding: 0.5rem;
-	border-bottom: #041e3e 5px solid;
+	border-bottom: #BF6999 5px solid;
 }
 .about-info .job a {
 	color: #361C40;
