@@ -11,11 +11,11 @@
 	height: 3px;
 	margin: 0 0 5px 0;
 	background: #fff;
-	background-color: #023859;
+	background-color: #FFE6FF;
 	transition: all 0.5s ease-out;
 }
 .menu-btn .btn-line:nth-child(2) {
-	background: #03658C;
+	background: #BF6999;
 }
 .menu-btn.close {
 	transform: rotate(180deg);
@@ -54,7 +54,7 @@
 .menu-nav {
 	margin: 0;
 	padding: 0;
-	background: #03658C;
+	background: #4F3258;
 	list-style: none;
 	transform: translate3d(0, -100%, 0);
 	transition: all 0.5s ease-out;
@@ -63,7 +63,7 @@
 	transform: translate3d(0, 0%, 0);
 }
 .menu-branding {
-	background: #023859;
+	background: #361C40;
 	opacity: 1;
 	transition: all 0.5s ease-out;
 	transform: translate3d(0, 100%, 0);
@@ -76,7 +76,7 @@
 	height: 150px;
 	background: url(../img/portfoliosm.png);
 	border-radius: 50%;
-	border: solid 3px #5fffed;
+	border: solid 3px #FFE6FF;
 	opacity: 1;
 }
 .menu .nav-item {
@@ -87,7 +87,7 @@
 	transform: translate3d(0, 0, 0);
 }
 .menu .nav-item.current > a {
-	color: #5fffed;
+	color: #FFE6FF;
 }
 .menu .nav-link {
 	display: inline-block;
@@ -101,7 +101,7 @@
 	transition: all 0.5s ease-out;
 }
 .menu .nav-link:hover {
-	color: #5fffed;
+	color: #F2E088;
 }
 
 .nav-item:nth-child(1) {
@@ -125,15 +125,16 @@
 }
 
 body {
-	background: #5AA3BF;
-	color: #041e3e;
-	height: 100%;
+	background: #361C40;
+	color: #FFE6FF;
+	height: 100vh;
 	margin: 0;
 	font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 	line-height: 1.5;
 }
 body#bg-img {
-	background: url(../img/background.jpg);
+	background: url(../img/star-2.jpg);
+	height: 100vh;
 	background-attachment: fixed;
 	background-size: cover;
 }
@@ -164,7 +165,6 @@ h2.sm-heading,
 h3.sm-heading {
 	margin-bottom: 2rem;
 	padding: 0.2rem 1rem;
-	background: rgba(73, 73, 73, 0.5);
 }
 
 a {
@@ -179,7 +179,7 @@ header {
 }
 
 .text-secondary {
-	color: #03658C;
+	color: #FFE6FF;
 }
 
 main {
@@ -190,7 +190,7 @@ main .icons {
 	margin-top: 1rem;
 }
 main .icons a {
-	color: #03658C;
+	color: #261724;
 	padding: 0.4rem;
 }
 main .icons a:hover {
@@ -230,12 +230,12 @@ main#home h1 {
 	grid-area: job3;
 }
 .about-info .job {
-	background: #ffffffab;
+	background: #4F3258;
 	padding: 0.5rem;
 	border-bottom: #041e3e 5px solid;
 }
 .about-info .job a {
-	color: #5fffed;
+	color: #361C40;
 	text-decoration: underline;
 }
 .about-info .job a:hover {
@@ -309,7 +309,6 @@ main#home h1 {
 #main-footer {
 	text-align: center;
 	padding: 1rem;
-	background: #2b2b2b;
 	color: #fff;
 	height: 4%;
 }
